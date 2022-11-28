@@ -13,6 +13,7 @@ body {
 
 details {
   color: hsl(240, 6%, 50%);
+  transition: 0.3s;
 }
 
 details summary {
@@ -24,6 +25,11 @@ details summary {
   -ms-user-select: none;
   user-select: none;
   color: hsl(237, 12%, 33%);
+  transition: 0.3s;
+}
+
+details summary:hover {
+  color: hsl(14, 88%, 65%);
 }
 
 summary:before {
@@ -45,6 +51,11 @@ details:after {
 details[open] summary {
   margin-bottom: 0.3rem;
   font-weight: 700;
+  transition: 0.3s;
+}
+
+details[open] summary:hover {
+  color: hsla(240, 6%, 50%, 0.425);
 }
 
 details[open] summary:before {

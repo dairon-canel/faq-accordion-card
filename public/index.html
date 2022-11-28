@@ -20,12 +20,15 @@
     class="grid min-h-screen bg-gradient-to-b from-BgSoftViolet to-BgSoftBlue"
   >
     <main
-      class="mx-6 grid h-fit w-11/12 place-self-center rounded-2xl bg-white px-5"
+      class="mx-6 grid h-fit w-11/12 place-self-center rounded-2xl bg-white px-5 md:max-w-3xl md:grid-cols-2 md:overflow-hidden"
     >
-      <picture class="h-0 -translate-y-28 place-self-center">
+      <picture
+        class="h-0 -translate-y-28 place-self-center md:top-0 md:z-20 md:col-start-1 md:-translate-x-20 md:translate-y-10"
+      >
         <source
-          srcset="./bg-pattern-top-desktop.svg"
-          media="(min-width:640px)"
+          srcset="./illustration-woman-online-desktop.svg"
+          media="(min-width:768px)"
+          width="500px"
         />
         <img
           src="./illustration-woman-online-mobile.svg"
@@ -34,10 +37,23 @@
           height="180px"
         />
       </picture>
-      <picture class="h-0 place-self-center">
+      <picture
+        class="hidden md:absolute md:z-30 md:block md:-translate-x-32 md:translate-y-32"
+      >
+        <img
+          src="./illustration-box-desktop.svg"
+          alt="box"
+          width="191"
+          height="184"
+        />
+      </picture>
+      <picture
+        class="h-0 place-self-center md:z-10 md:col-start-1 md:-translate-x-20 md:-translate-y-44 md:self-center"
+      >
         <source
-          srcset="./bg-pattern-top-desktop.svg"
-          media="(min-width:640px)"
+          srcset="./bg-pattern-desktop.svg"
+          media="(min-width:768px)"
+          width="500px"
         />
         <img
           src="./bg-pattern-mobile.svg"
@@ -46,8 +62,14 @@
           height="104px"
         />
       </picture>
-      <section class="mt-32 mb-10 grid">
-        <h1 class="mb-7 place-self-center text-3xl font-700">FAQ</h1>
+      <section
+        class="mt-32 mb-10 grid md:col-start-2 md:mt-10 md:mb-16 md:pr-14 md:pl-6"
+      >
+        <h1
+          class="mb-7 place-self-center text-3xl font-700 md:w-full md:text-left"
+        >
+          FAQ
+        </h1>
         <div>
           <details>
             <summary>How many team members can I invite?</summary>
