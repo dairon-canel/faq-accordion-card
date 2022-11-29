@@ -8,12 +8,15 @@ html {
 
 body {
   font-family: 'Kumbh Sans', sans-serif;
-  font-size: 0.75rem;
+  font-size: 12px;
 }
 
 details {
   color: hsl(240, 6%, 50%);
   transition: 0.3s;
+  border-bottom: 1px solid hsla(240, 6%, 50%, 0.425);
+  padding-bottom: 0.75rem;
+  margin: 0.75rem 0;
 }
 
 details summary {
@@ -39,13 +42,6 @@ summary:before {
   transition: 0.3s;
   display: inline-block;
   right: 0;
-}
-
-details:after {
-  content: '';
-  display: block;
-  border-top: 0.01rem solid hsla(240, 6%, 50%, 0.425);
-  margin: 0.75rem 0;
 }
 
 details[open] summary {
