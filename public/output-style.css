@@ -763,6 +763,10 @@ details[open] summary:before {
     display: block;
   }
 
+  .md\:w-screen {
+    width: 100vw;
+  }
+
   .md\:w-full {
     width: 100%;
   }
