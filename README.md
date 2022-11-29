@@ -45,5 +45,5 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@RyuzakCoder](https://www.frontendmentor.io/profile/ryuzakcoder)
-- LinkedIn - [dairon-canel](https://www.linkedin.com/dairon-canel/)
+- LinkedIn - [dairon-canel](https://www.linkedin.com/in/dairon-canel/)
 
